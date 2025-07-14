@@ -248,7 +248,7 @@ a:hover { color: var(--color-blue-lighter); }
 .timeline-item:nth-child(2) .timeline-number { background-color:  #27374D; }
 .timeline-item:nth-child(3) .timeline-number { background-color:  #27374D; }
 .timeline-details {
-    color: var(--color-blue-lighter);
+    color: #FFA500;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
