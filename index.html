@@ -1,249 +1,402 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Portfolio - Harold Lara</title>
+    <meta name="description" content="Portfolio of Harold Lara, a Regional MIS and Business Intelligence Leader building enterprise reporting, analytics, and workflow tools across Asia.">
+    <meta name="theme-color" content="#0b1422">
+    <title>Harold Lara | Regional MIS &amp; BI Leader</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <header class="site-header">
-        <div class="container text-center">
-            <div class="profile-pic-wrapper">
-                <img src="./Profile.jpg" alt="Harold Lara Profile Picture" class="profile-pic">
+    <nav class="site-nav" aria-label="Primary navigation">
+        <div class="container nav-inner">
+            <a class="brand" href="#top" aria-label="Harold Lara - Home">
+                <span class="brand-mark" aria-hidden="true">HL</span>
+                <span class="brand-copy">
+                    <strong>Harold Lara</strong>
+                    <small>MIS · BI · Full-stack tools</small>
+                </span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#experience">Experience</a>
             </div>
-            <div class="profile-name">
-            <h1 class="">Harold Lara</h1>
-              <div class="flag">
-            <img src="https://cdn-icons-png.flaticon.com/128/11849/11849645.png" class="flagph">
-            <img src="https://cdn-icons-png.flaticon.com/128/12339/12339528.png" class="flagph">
-            <img src="https://cdn-icons-png.flaticon.com/128/323/323319.png" class="flagph">
-            <img src="https://cdn-icons-png.flaticon.com/128/3909/3909444.png" class="flagph">
-                <img src="https://cdn-icons-png.flaticon.com/128/323/323281.png" class="flagph"></div>
-            </div>
-            <p class="subtitle">Regional MIS Leader | Data &amp; Reporting Specialist</p>
-            <p class="header-intro">Results-driven and analytical Regional MIS Leader with nearly a decade of experience in the BPO industry, specializing in leading multi-site operations across Asia. Proven expertise in designing and delivering enterprise-level reports, performance monitoring, and data security using Power BI and Looker Studio.</p>
-            <div class="header-buttons">
-                <button onclick="scrollToSection('portfolio')" class="btn btn-primary">View Portfolio</button>
-                <button onclick="scrollToSection('contact')" class="btn btn-secondary">Get In Touch</button>
-            </div>
+
+            <a class="nav-cta" href="#contact">Let's connect</a>
         </div>
-    </header>
+    </nav>
 
-    <section id="about" class="section bg-gray-dark">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="grid-2-col items-center">
+    <main id="main-content">
+        <header class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Regional MIS &amp; Business Intelligence Leader</p>
+                    <h1>I turn workforce data into systems leaders can act on.</h1>
+                    <p class="hero-intro">
+                        Nearly a decade in BPO operations, reporting, and analytics across Asia. I build enterprise dashboards, reporting workflows, and internal tools that connect accurate data with faster business decisions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#work">Explore selected work</a>
+                        <a class="button button-secondary" href="#certificates">View credentials</a>
+                    </div>
+
+                    <div class="region-list" aria-label="Regional experience across the Philippines, Indonesia, Vietnam, Thailand, and India">
+                        <span>Regional experience</span>
+                        <span class="flag" role="img" aria-label="Philippines">🇵🇭</span>
+                        <span class="flag" role="img" aria-label="Indonesia">🇮🇩</span>
+                        <span class="flag" role="img" aria-label="Vietnam">🇻🇳</span>
+                        <span class="flag" role="img" aria-label="Thailand">🇹🇭</span>
+                        <span class="flag" role="img" aria-label="India">🇮🇳</span>
+                    </div>
+                </div>
+
+                <aside class="profile-panel" aria-label="Professional profile">
+                    <div class="portrait-frame">
+                        <img src="Profile.jpg" alt="Portrait of Harold Lara" class="profile-pic">
+                    </div>
+                    <div class="profile-panel-body">
+                        <p class="profile-label">Current focus</p>
+                        <h2>Regional reporting at scale</h2>
+                        <p>Leading multi-country MIS delivery from Surabaya, Indonesia.</p>
+                        <div class="profile-stack" aria-label="Core technology stack">
+                            <span>Power BI</span>
+                            <span>Fabric</span>
+                            <span>SQL</span>
+                            <span>Looker Studio</span>
+                            <span>Apps Script</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="container">
+                <dl class="impact-strip">
+                    <div>
+                        <dt>Nearly 10 years</dt>
+                        <dd>BPO, operations &amp; analytics</dd>
+                    </div>
+                    <div>
+                        <dt>4-country scope</dt>
+                        <dd>Regional MIS leadership</dd>
+                    </div>
+                    <div>
+                        <dt>30-90 agents</dt>
+                        <dd>Operations teams managed</dd>
+                    </div>
+                    <div>
+                        <dt>12 SMEs</dt>
+                        <dd>Mentored into leadership</dd>
+                    </div>
+                </dl>
+            </div>
+        </header>
+
+        <section id="work" class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow eyebrow-dark">Selected work</p>
+                        <h2>Reporting systems built around business decisions</h2>
+                    </div>
+                    <p>Operational examples are generalized to protect client and company information.</p>
+                </div>
+
+                <div class="work-grid">
+                    <article class="work-card">
+                        <div class="card-topline">
+                            <span>01</span>
+                            <span class="card-category">Regional MIS</span>
+                        </div>
+                        <h3>Multi-site performance operating model</h3>
+                        <p>Led reporting delivery across Indonesia, Vietnam, Thailand, and India with consistent controls for quality, accuracy, budgeting, and data protection.</p>
+                        <ul class="chip-list" aria-label="Related capabilities">
+                            <li>Data governance</li>
+                            <li>Performance reporting</li>
+                            <li>Client reviews</li>
+                        </ul>
+                    </article>
+
+                    <article class="work-card work-card-featured">
+                        <div class="card-topline">
+                            <span>02</span>
+                            <span class="card-category">BI &amp; Automation</span>
+                        </div>
+                        <h3>Enterprise dashboards and workflow automation</h3>
+                        <p>Designed Power BI and Looker Studio reporting, automated recurring workflows, and partnered with IT on tools adopted across the organization.</p>
+                        <ul class="chip-list" aria-label="Related technologies">
+                            <li>Power BI</li>
+                            <li>Looker Studio</li>
+                            <li>SQL</li>
+                            <li>Apps Script</li>
+                        </ul>
+                    </article>
+
+                    <article class="work-card">
+                        <div class="card-topline">
+                            <span>03</span>
+                            <span class="card-category">Leadership</span>
+                        </div>
+                        <h3>Reporting teams and leadership pipelines</h3>
+                        <p>Established an enterprise reporting team for performance and incentive tracking, trained MIS staff, and mentored 12 SMEs toward management roles.</p>
+                        <ul class="chip-list" aria-label="Related capabilities">
+                            <li>Team development</li>
+                            <li>Workflow design</li>
+                            <li>Project delivery</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="section section-dark">
+            <div class="container expertise-layout">
+                <div class="expertise-intro">
+                    <p class="eyebrow">Expertise</p>
+                    <h2>From source data to executive action</h2>
+                    <p>I work across the full reporting lifecycle: data preparation, modeling, visualization, workflow design, stakeholder alignment, and team adoption.</p>
+                </div>
+
+                <div class="capability-grid">
+                    <article class="capability">
+                        <span class="capability-index">01</span>
+                        <div>
+                            <h3>Business intelligence</h3>
+                            <p>Power BI, Microsoft Fabric, Looker Studio, DAX, scorecards, performance reporting, and business review datasets.</p>
+                        </div>
+                    </article>
+                    <article class="capability">
+                        <span class="capability-index">02</span>
+                        <div>
+                            <h3>Data engineering &amp; reporting</h3>
+                            <p>SQL, MySQL, PostgreSQL, warehousing, ETL/ELT, billing reports, real-time reporting, and data quality controls.</p>
+                        </div>
+                    </article>
+                    <article class="capability">
+                        <span class="capability-index">03</span>
+                        <div>
+                            <h3>Full-stack workflow tools</h3>
+                            <p>HTML, CSS, JavaScript, React, Node.js, Google Apps Script, macros, GitHub, and internal tool prototyping.</p>
+                        </div>
+                    </article>
+                    <article class="capability">
+                        <span class="capability-index">04</span>
+                        <div>
+                            <h3>Delivery &amp; leadership</h3>
+                            <p>Project charters, workflow design, cross-functional delivery, client communication, training programs, and team leadership.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow eyebrow-dark">Certificates</p>
+                        <h2>Verified learning across process, data, and development</h2>
+                    </div>
+                    <p>Each credential strengthens a different part of my end-to-end delivery approach.</p>
+                </div>
+
+                <div class="certificate-grid">
+                    <article class="certificate-card">
+                        <div class="certificate-badge" aria-hidden="true">LSS</div>
+                        <div class="certificate-content">
+                            <p class="certificate-provider">AIGPE</p>
+                            <h3>Certified Lean Six Sigma Green Belt</h3>
+                            <p>Process improvement, structured problem-solving, root-cause analysis, and continuous improvement.</p>
+                            <div class="certificate-footer">
+                                <span>Process excellence</span>
+                                <a href="https://digitalcredentials.aigproexcellence.com/en/verify/22217248014580" target="_blank" rel="noreferrer">Verify credential <span aria-hidden="true">↗</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="certificate-card">
+                        <div class="certificate-badge" aria-hidden="true">PBI</div>
+                        <div class="certificate-content">
+                            <p class="certificate-provider">Udemy</p>
+                            <h3>Power BI Certification</h3>
+                            <p>Data modeling, DAX, dashboard design, visual analytics, and decision-ready reporting.</p>
+                            <div class="certificate-footer">
+                                <span>Business intelligence</span>
+                                <a href="https://www.udemy.com/certificate/UC-a19b15be-2609-4c40-a664-fd080eb2a87f/" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="certificate-card">
+                        <div class="certificate-badge" aria-hidden="true">SQL</div>
+                        <div class="certificate-content">
+                            <p class="certificate-provider">Udemy</p>
+                            <h3>SQL Certification</h3>
+                            <p>Relational querying, data extraction, transformation, and reliable reporting datasets.</p>
+                            <div class="certificate-footer">
+                                <span>Data &amp; querying</span>
+                                <a href="https://www.udemy.com/certificate/UC-05078e27-0583-48a7-9ab2-a7d9b891c160/" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="certificate-card">
+                        <div class="certificate-badge" aria-hidden="true">&lt;/&gt;</div>
+                        <div class="certificate-content">
+                            <p class="certificate-provider">Udemy</p>
+                            <h3>Full-Stack Web Development</h3>
+                            <p>Front-end foundations, JavaScript, React, Node.js, and building practical web applications.</p>
+                            <div class="certificate-footer">
+                                <span>Web development</span>
+                                <a href="https://www.udemy.com/certificate/UC-96dc1cfe-ad03-4efd-b266-986d513fb596/" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow eyebrow-dark">Experience</p>
+                        <h2>A career built from operations upward</h2>
+                    </div>
+                    <p>Hands-on operational experience informs how I design reports, tools, and workflows for the people who use them.</p>
+                </div>
+
+                <div class="experience-layout">
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Regional MIS Leader</h3>
+                                    <p>Gear Inc · Indonesia</p>
+                                </div>
+                                <time datetime="2024-01">Jan 2024 - Present</time>
+                            </div>
+                            <ul>
+                                <li>Lead multi-country MIS operations and maintain consistent reporting quality and data accuracy.</li>
+                                <li>Own performance, budgeting, data protection, workforce reporting, and Power BI delivery.</li>
+                                <li>Partner with IT on organization-wide tools and facilitate client communication and performance reviews.</li>
+                            </ul>
+                        </article>
+
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>MIS Analyst</h3>
+                                    <p>Ubiquity · Philippines</p>
+                                </div>
+                                <time datetime="2023-01">Jan 2023 - Dec 2023</time>
+                            </div>
+                            <ul>
+                                <li>Delivered performance and billable-hour reporting across fintech, healthcare, and e-commerce.</li>
+                                <li>Automated daily Power BI and Looker Studio dashboards and maintained analytical data warehouses.</li>
+                                <li>Trained new and promoted MIS team members.</li>
+                            </ul>
+                        </article>
+
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Report Analyst</h3>
+                                    <p>Collective Solution · Philippines</p>
+                                </div>
+                                <time datetime="2021-09">Sep 2021 - Dec 2022</time>
+                            </div>
+                            <ul>
+                                <li>Produced performance and business progress reports for operational and strategic decisions.</li>
+                                <li>Built Excel and Power BI dashboards and established an enterprise reporting team for performance and incentives.</li>
+                            </ul>
+                        </article>
+
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Team Manager | Project Expert</h3>
+                                    <p>Collective Solution · Philippines</p>
+                                </div>
+                                <time datetime="2020-12">Dec 2020 - Sep 2021</time>
+                            </div>
+                            <ul>
+                                <li>Managed productivity, staffing, and reporting for content moderation teams of 30-90 agents.</li>
+                                <li>Led coaching, classroom training, second-layer QA audits, and a leadership pipeline for 12 SMEs.</li>
+                            </ul>
+                        </article>
+
+                        <details class="earlier-roles">
+                            <summary>View earlier operations roles</summary>
+                            <div class="earlier-role">
+                                <div>
+                                    <h3>Subject Matter Expert</h3>
+                                    <p>Collective Solution · Philippines</p>
+                                </div>
+                                <time datetime="2019-11">Nov 2019 - Dec 2020</time>
+                            </div>
+                            <p>Led training for expense tracking and content moderation projects; supervised 24-50 agents and tracked development progress.</p>
+
+                            <div class="earlier-role">
+                                <div>
+                                    <h3>Data Entry Clerk</h3>
+                                    <p>Collective Solution · Philippines</p>
+                                </div>
+                                <time datetime="2016-03">Mar 2016 - Nov 2019</time>
+                            </div>
+                            <p>Managed account creation, customer verification, mobile-app expense tracking, renewals, and account activation.</p>
+                        </details>
+                    </div>
+
+                    <aside class="education-card">
+                        <p class="eyebrow eyebrow-dark">Education</p>
+                        <h3>BS Electrical Engineering</h3>
+                        <p>Technological Institute of the Philippines</p>
+                        <div class="education-note">
+                            <span aria-hidden="true">↳</span>
+                            <p>Engineering foundations translated into structured analysis, systems thinking, and practical problem-solving.</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-layout">
                 <div>
-                    <h3>Data &amp; Reporting Professional</h3>
-                    <p>As a Regional MIS Leader with extensive experience in data analysis and reporting, I specialize in creating comprehensive business reports, performance dashboards, and enterprise-level scorecards. My expertise includes Power BI, Looker Studio, MS Office Apps, and Google Workspace.</p>
-                    <p>I am passionate about transforming complex data into actionable insights through visual storytelling. Eager to apply my data visualization and workflow design expertise to new challenges and help organizations achieve data-driven success.</p>
-                    <div class="tags-container">
-                        <span class="tag tag-purple">Data Analysis</span>
-                        <span class="tag tag-blue">Enterprise Reporting</span>
-                        <span class="tag tag-green">Dashboard Creation</span>
-                    </div>
+                    <p class="eyebrow">Let's connect</p>
+                    <h2>Building a reporting system, dashboard, or internal tool?</h2>
                 </div>
-                <div class="skills-card">
-                    <h4>Skills &amp; Expertise</h4>
-                    <div class="skills-list">
-                        <div class="skill-item" data-rating="5">
-                            <span class="skill-name">Visual Reporting Tools (PBI, Looker)</span>
-                            <div class="star-rating"></div>
-                        </div>
-                        <div class="skill-item" data-rating="5">
-                            <span class="skill-name">Performance &amp; Data Analytics</span>
-                            <div class="star-rating"></div>
-                        </div>
-                        <div class="skill-item" data-rating="4.5">
-                            <span class="skill-name">Project &amp; Team Leadership</span>
-                            <div class="star-rating"></div>
-                        </div>
-                        <div class="skill-item" data-rating="4">
-                            <span class="skill-name">Reports and Calculation (Basic Programming)</span>
-                            <div class="star-rating"></div>
-                        </div>
+                <div class="contact-copy">
+                    <p>I’m open to conversations about MIS leadership, business intelligence, data workflow, and full-stack internal tools.</p>
+                    <div class="contact-actions">
+                        <a class="button button-primary" href="mailto:Harold.lara1993@gmail.com">Email Harold</a>
+                        <a class="button button-secondary" href="https://www.linkedin.com/in/harold-creativeminds" target="_blank" rel="noreferrer">LinkedIn profile</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="portfolio" class="section bg-gray-darker">
-        <div class="container">
-            <h2 class="section-title">Featured Work</h2>
-            <div class="grid-3-col">
-                <div class="card">
-                    <div class="card-header bg-grad-1">
-                        <div class="card-icon">📊</div>
-                        <p>Enterprise-Level Reporting</p>
-                    </div>
-                    <div class="card-body">
-                        <h3>Multi-Site Performance Tracking</h3>
-                        <p>Led MIS operations across Vietnam, Indonesia, Thailand, and India, ensuring data accuracy for performance tracking, budgeting, and data protection.</p>
-                        <div class="tags-container">
-                            <span class="tag tag-dark-blue">Data Security</span>
-                            <span class="tag tag-dark-gray">Budgeting</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header bg-grad-2">
-                        <div class="card-icon">⚙️</div>
-                        <p>Automation &amp; Tool Development</p>
-                    </div>
-                    <div class="card-body">
-                        <h3>Power BI &amp; Looker Studio Automation</h3>
-                        <p>Designed and automated daily dashboards using Power BI and Looker Studio for clients in fintech, healthcare, and e-commerce. Collaborated with IT to develop new tools for the organization.</p>
-                        <div class="tags-container">
-                            <span class="tag tag-dark-blue">Power BI</span>
-                            <span class="tag tag-dark-gray">Looker Studio</span>
-                            <span class="tag tag-dark-green">Automation</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header bg-grad-3">
-                        <div class="card-icon">📈</div>
-                        <p>Team &amp; Process Establishment</p>
-                    </div>
-                    <div class="card-body">
-                        <h3>Reporting Team &amp; Leadership Pipeline</h3>
-                        <p>Initiated an enterprise-level reporting team for performance and incentive tracking. Mentored 12 SMEs and developed a leadership pipeline for team manager roles.</p>
-                        <div class="tags-container">
-                            <span class="tag tag-dark-blue">Team Leadership</span>
-                            <span class="tag tag-dark-gray">Workflow Design</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section bg-gray-dark">
-        <div class="container">
-            <h2 class="section-title">Experience &amp; Achievements</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-number">1</div>
-                    <div>
-                        <h3>Regional MIS Leader</h3>
-                        <p class="timeline-details">Gear Inc - Indonesia • Jan 2024 - Present</p>
-                        <ul>
-                            <li>Lead MIS operations across multiple countries in Asia, ensuring consistent quality and data accuracy.</li>
-                            <li>Supervise reporting on performance tracking, budgeting, and data protection.</li>
-                            <li>Drive innovation by enhancing enterprise-level reporting tools.</li>
-                            <li>Design and maintain Power BI dashboards; collaborate with IT to develop tools/apps for organization-wide adoption.</li>
-                            <li>Act as on-site expatriate to oversee project delivery and alignment with regional standards.</li>
-                            <li>Establish reporting workflows for workforce data needs.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-number">2</div>
-                    <div>
-                        <h3>MIS Analyst</h3>
-                        <p class="timeline-details">Ubiquity • Jan 2023 - Dec 2023</p>
-                        <ul>
-                            <li>Handled performance and billable hour reporting for clients in fintech, healthcare, and e-commerce sectors.</li>
-                            <li>Automated daily dashboards using Power BI and Looker Studio.</li>
-                            <li>Conducted training for new and promoted MIS staff.</li>
-                            <li>Developed and maintained data warehouses to support analytical reporting.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-number">3</div>
-                    <div>
-                        <h3>Report Analyst</h3>
-                        <p class="timeline-details">Collective Solution • 2021 - Dec 2022</p>
-                        <ul>
-                            <li>Produced program performance and business progress reports.</li>
-                            <li>Provided detailed data analysis to support operational and strategic decision-making.</li>
-                            <li>Built visual dashboards using Excel and Power BI.</li>
-                            <li>Initiated an enterprise-level reporting team to implement performance and incentive tracking.</li>
-                        </ul>
-                    </div>
-                </div>
-                 <div class="timeline-item">
-                    <div class="timeline-number">4</div>
-                    <div>
-                        <h3>Team Manager</h3>
-                        <p class="timeline-details">Collective Solution • 2020 - 2021</p>
-                        <ul>
-                            <li>Managed team productivity, staffing, and reporting for content moderation teams (30–90 agents).</li>
-                            <li>Conducted coaching, classroom training, and implemented second-layer QA audits.</li>
-                            <li>Mentored 12 SMEs and developed a leadership pipeline for team manager roles.</li>
-                        </ul>
-                    </div>
-                </div>
-                 <div class="timeline-item">
-                    <div class="timeline-number">5</div>
-                    <div>
-                        <h3>SME</h3>
-                        <p class="timeline-details">Collective Solution • 2019 - 2020</p>
-                        <ul>
-                            <li>Led training for expense tracking and content moderation projects.</li>
-                            <li>Supervised 24–50 agents, delivered coaching, and tracked development progress.</li>
-                        </ul>
-                    </div>
-                </div>
-                 <div class="timeline-item">
-                    <div class="timeline-number">6</div>
-                    <div>
-                        <h3>Data Entry Clerk</h3>
-                        <p class="timeline-details">Collective Solution • 2016 - 2019</p>
-                        <ul>
-                            <li>Managed account creation, customer verification, and mobile app expense tracking.</li>
-                            <li>Oversaw renewals and account activations.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section bg-gray-darker">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="contact-card">
-                <div class="contact-item">
-                    <div class="contact-icon-wrapper">
-                        <span><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png" class="connectlogo"></span>
-                    </div>
-                    <div>
-                        <h3 class="contacth3">Email Address</h3>
-                        <a href="mailto:Harold.lara1993@gmail.com">Harold.lara1993@gmail.com</a>
-                    </div>
-                </div>
-                <hr class="separator">
-                <div class="contact-item">
-                    <div class="contact-icon-wrapper">
-                        <span><img src="https://cdn-icons-png.flaticon.com/128/665/665212.png" class="connectlogo"></span>
-                    </div>
-                    <div>
-                        <h3 class="contacth3">LinkedIn Profile</h3>
-                        <a href="https://www.linkedin.com/in/harold-creativeminds" target="_blank">www.linkedin.com/in/harold-creativeminds</a>
-                    </div>
-                </div>
-                <hr class="separator">
-                <div class="contact-footer">
-                    <p>Ready to collaborate on your next project?</p>
-                    <p>Feel free to reach out via email or connect on LinkedIn.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="site-footer-bottom">
-        <div class="container text-center">
-            <div class="footer-icon"></div>
-            <p>Ready to drive organizational success together</p>
-            <p>&copy; 2025 Harold Lara. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p><strong>Harold Lara</strong> · Regional MIS &amp; BI Leader</p>
+            <p>© <span id="current-year">2026</span> Harold Lara</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
